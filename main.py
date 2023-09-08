@@ -108,7 +108,7 @@ class NFTCollection:
 
 
 def main():
-    nftCollection = NFTCollection('Cubeheads')
+    nftCollection = NFTCollection('BitBots')
     nftCollection.initializeTraits('traits/')
     nftCollection.generateTokens(100)
     nftCollection.generateImages('tokens')
